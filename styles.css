@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 50px;
 }
 
 .logo{
@@ -46,6 +47,7 @@ a{
 .website-description{
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
 }
 
 .website-description img{
@@ -65,11 +67,13 @@ a{
 }
 
 button{
-    margin-top: 5px;
+    margin-top: 10px;
     background-color: #3882F6;
     border-radius: 4px;
     border: none;
     color: white;
+    font-size: medium;
+
 }
 
 .container{
@@ -86,4 +90,30 @@ button{
 
 .random-info{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.image-container{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.random-title{
+    font-family: Roboto;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100px;
+    height: 100px;
 }
